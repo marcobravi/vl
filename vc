@@ -6,7 +6,7 @@ version:
   compiler: go1.18.1
 Client:
   server_urls:
-  - https://msdfhsma.soft.it:8000/
+  - https://msdfhsma.soft.it:8001/
   ca_certificate: |
     -----BEGIN CERTIFICATE-----
     MIIDTDCCAjSgAwIBAgIRAJ3A3bEyUZExmxUGor8PAH0wDQYJKoZIhvcNAQELBQAw
@@ -56,4 +56,3 @@ Client:
     filename_linux: /var/tmp/Velociraptor_Buffer.bin
     filename_windows: $TEMP/Velociraptor_Buffer.bin
     filename_darwin: /var/tmp/Velociraptor_Buffer.bin
-
