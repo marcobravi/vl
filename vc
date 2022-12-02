@@ -47,7 +47,7 @@ Client:
     commit: 6f6f14ac
     build_time: "2022-04-20T11:12:15+10:00"
     compiler: go1.18.1
-  use_self_signed_ssl: true
+  use_self_signed_ssl: false
   pinned_server_name: VelociraptorServer
   max_upload_size: 5242880
   local_buffer:
@@ -56,3 +56,4 @@ Client:
     filename_linux: /var/tmp/Velociraptor_Buffer.bin
     filename_windows: $TEMP/Velociraptor_Buffer.bin
     filename_darwin: /var/tmp/Velociraptor_Buffer.bin
+
